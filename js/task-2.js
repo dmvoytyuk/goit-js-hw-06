@@ -16,7 +16,7 @@ class Storage {
         this.#items = this.#items.filter(item => item !== itemToRemove);
     }
 }
-
+console.log('TASK-2');
 const storage = new Storage(["Nanitoids", "Prolonger", "Antigravitator"]);
 console.log(storage.getItems()); // ["Nanitoids", "Prolonger", "Antigravitator"]
 storage.addItem("Droid");

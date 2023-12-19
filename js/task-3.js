@@ -20,7 +20,7 @@ class StringBuilder {
         this.#value = `${str}${this.#value}${str}`;
     }
 }
-
+console.log('TASK-3');
 const builder = new StringBuilder(".");
 console.log(builder.getValue()); // "."
 builder.padStart("^");
